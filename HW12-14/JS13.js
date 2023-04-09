@@ -57,7 +57,6 @@ let oddPositiveArr = positiveArr1.filter((num) => num %2 !== 0);
 let oddPositiveSum = oddPositiveArr.reduce((a, b) => a + b, 0);
 console.log("Сума непарних позитивних елементів: " + oddPositiveSum)
 
-// Знайти добуток позитивних елементів.
 let positiveArr2 = arr.filter((num) => num > 0);
 let product = positiveArr2.reduce((a, b) => a * b, 1);
 console.log("Добуток позитивних елементів: " + product)
@@ -66,7 +65,7 @@ let maxEl =  arr[0];
 let maxNumEl = 0;
 for (let i = 0; i < arr.length; i ++){
     if (arr[i] > maxEl){
-        max = arr[i];
+        maxEl = arr[i];
         maxNumEl = i;
     }
 }
