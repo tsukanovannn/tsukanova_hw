@@ -43,6 +43,7 @@ let n = 9;
 let numStore = 0;
 let result = 1
 while (result < n){
+
     result *= 3;
     numStore++;
 }
